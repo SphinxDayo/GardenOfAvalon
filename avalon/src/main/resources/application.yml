@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    cache: false
+    datasource:
+      username: root
+      password: 1234564
+      url: jdbc:mysql://localhost:3306/avalong?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+      driver-classname: com.mysql.cj.jdbc.Driver
+  devtools:
+    restart:
+      enabled: true
